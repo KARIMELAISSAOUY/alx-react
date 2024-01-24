@@ -64,10 +64,10 @@ class App extends React.Component {
 				<div className={css(styles.container, styles.small)}>
 					<Header />
 					<Notifications
-						listNotifications={this.listNotifications}
-						displayDrawer={this.state.displayDrawer}
-						handleDisplayDrawer={this.handleDisplayDrawer}
-						handleHideDrawer={this.handleHideDrawer}
+					  listNotifications={this.listNotifications}
+					  displayDrawer={this.state.displayDrawer}  // Add this line
+					  handleDisplayDrawer={this.handleDisplayDrawer}
+					  handleHideDrawer={this.handleHideDrawer}
 					/>
 				</div>
 				<hr className={css(styles.hr)} />
