@@ -97,10 +97,10 @@ class Notifications extends Component {
 }
 
 Notifications.propTypes = {
-	displayDrawer: PropTypes.bool,
-	listNotifications: PropTypes.arrayOf(NotificationItemShape),
-	handleDisplayDrawer: PropTypes.func,
-	handleHideDrawer: PropTypes.func,
+  displayDrawer: PropTypes.bool,
+  listNotifications: PropTypes.arrayOf(NotificationItemShape),
+  handleDisplayDrawer: PropTypes.func,  // Add this line
+  handleHideDrawer: PropTypes.func,
 };
 
 Notifications.defaultProps = {
