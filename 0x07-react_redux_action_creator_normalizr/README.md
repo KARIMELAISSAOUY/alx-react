@@ -22,5 +22,5 @@ To start exploring the world of React Redux action creators and Normalizr, follo
 
 1. **Clone this repository:**
    ```bash
-   git clone 0x07.React Redux
+   git clone https://github.com/KARIMELAISSAOUY/alx-react.git
 
